@@ -46,6 +46,7 @@ body{
     color: white;
     border: none;
     border-radius: 20px;
+    outline: none;
 }
 #equals{
     height: 150px;
@@ -124,9 +125,9 @@ p{
     }
     #textview{
         width: 240px;
-        height: 60px;
+        height: 40px;
         margin: 5px;
-        font-size: 50px;
+        font-size: 30px;
         text-align: right;
         background-color: black;
         color: white;
@@ -148,21 +149,6 @@ p{
     .header{
         font-size: 50px;
         color: white;
-    }
-    .button:hover{
-        box-shadow: 0 0 11px rgba(3, 19, 243, 0.2);
-    }
-    .buttonZero:hover{
-        box-shadow: 0 0 11px rgba(3, 19, 243, 0.2);
-    }
-    #clear{
-        background-color: red;
-    }
-    #operator{
-        background-color: blue;
-    }
-    #number{
-        background-color: black;
     }
     .allButtons{
         background-color: white;
